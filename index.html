@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="shortcut icon" href="./public/favicon/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>GET FREE GIFT CARDS!</title>
+</head>
+<body>
+    <main class='homeMain'>
+        <section class='homeHeader'>
+            <h1>ROTTEN TECHNOLOGIES</h1>
+            <h1>WE INVITE YOU TO PARTICIPATE FOR FREE <strong>GIFTS CARDS 🎉🥳 </strong></h1>
+            <h2>COMPLETE THE FORM BELOW TO PARTICIPATE 💵</h2>
+        </section>
+        <section class='homeHero'>
+            <h1>GET THE CHANCE TO WIN ONE FREE GIFT CARD!!</h1>
+            <img src="./public/img/hero.svg" alt='logopage'/>
+        </section>
+        <section class='participateSection'>
+            <ol>
+                <li>STEPS TO PARTICIPATE</li>
+                <li>1 - PUT YOUR PHONE NUMBER</li>
+                <li>2 - CONTINUE THE PROCESS CLICKING IN CONTINUE</li>
+                <li>3 - FOLLOW THE NEXT STEPS TO GET THE CHANCE TO WIN</li>
+            </ol>
+        </section>
+        <section class="participateSection">
+            <form action="register.html">
+                <h1>PARTICIPATE HERE</h1>
+                <label for="numero">Phone Number</label>
+                <input type="number" name="phone" id="numero" required>
+    
+                <label for="operadora">Choose the Gift Card</label>
+                <select required name="gift" id="operadora">
+                    <option value="" hidden>Gift Card</option>
+                    <option value="amazon">Amazon Store</option>
+                    <option value="walmart">Walmart</option>
+                    <option value="apple">Apple Itunes</option>
+                    <option value="bestbuy">Best Buy</option>
+                    <option value="target">Target</option>
+                    <option value="google">Google Play</option>
+                </select>
+
+                <input type="submit" value="Continue"></input>
+            </form>
+        </section>
+    </main>
+    <footer><b>ROTTEN TECHNOLOGIES 2022</b></footer>
+</body>
+</html>
